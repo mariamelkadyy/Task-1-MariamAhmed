@@ -43,7 +43,6 @@ The chatbot can currently respond to:
 - Other Commands
   - help
   - thanks
-  - decodelabs
 
 - Exit Commands
   - bye
