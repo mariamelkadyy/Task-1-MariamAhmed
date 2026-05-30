@@ -1,7 +1,5 @@
 # Rule-Based AI Chatbot 🤖
 
-This project is part of the DecodeLabs AI Internship 2026.
-
 ## 📌 Project Overview
 
 This chatbot is a simple rule-based AI assistant built using Python.  
@@ -39,7 +37,8 @@ The chatbot can currently respond to:
 - Questions
   - how are you
   - what is your name
-  - what can you do
+  - what can you do / your capabilities
+  - what is decodelabs
 
 - Other Commands
   - help
@@ -48,6 +47,7 @@ The chatbot can currently respond to:
 
 - Exit Commands
   - bye
+  - goodbye
   - exit
   - quit
 
@@ -56,25 +56,45 @@ The chatbot can currently respond to:
 ## 📂 Project Structure
 
 ```text
-rule_based_chatbot
+Task-1-MariamAhmed/
 │
-├── main.py
-├── response.py
-├── utils.py
-├── README.md
-└── requirements.txt
+├── main.py          # Entry point — runs the chatbot loop
+├── response.py      # Core logic — intent matching and responses
+├── utils.py         # Input sanitization (clean_input function)
+├── README.md        # Project documentation
+└── requirements.txt # Dependencies (none required beyond standard library)
 
 ==============================================
 
-▶️ How to Run
-1. Clone or Download the Project
-   Place all project files inside one folder.
+## ▶️ How to Run
 
-2. Open Terminal in the Project Folder
+1. **Clone or Download the Repository**
+```bash
+   git clone https://github.com/your-username/Task-1-MariamAhmed.git
+```
 
-3. Run the Program
+2. **Navigate to the Project Folder**
+```bash
+   cd RuleBasedBot
+```
+
+3. **Run the Program**
+```bash
    python main.py
+```
 
+> No external libraries required. Built entirely with Python's standard library.
 
-👨‍💻 Author
-Developed as part of the DecodeLabs Artificial Intelligence Internship 2026.
+---
+
+## 💡 Example Interaction
+Welcome! I am DecodeBot.
+Type 'bye' or 'exit' to quit.
+You: Hello!
+Bot: Hi! How can I help you?
+You: How are you?
+Bot: All systems running perfectly!
+You: What is DecodeLabs?
+Bot: DecodeLabs is a training platform for AI and software engineering internships.
+You: bye
+Bot: Goodbye! It was nice talking to you.
